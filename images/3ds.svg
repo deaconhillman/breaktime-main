@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399.45 419">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #b2aed7;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #b2aed7;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M27,1h345.44c14.35,0,26,11.65,26,26v163.7c0,2.31-1.88,4.19-4.19,4.19H5.26c-2.35,0-4.26-1.91-4.26-4.26V27C1,12.65,12.65,1,27,1Z"/>
+  <path class="cls-1" d="M27,224.11h345.44c14.35,0,26,11.65,26,26v163.7c0,2.31-1.88,4.19-4.19,4.19H5.26c-2.35,0-4.26-1.91-4.26-4.26v-163.63c0-14.35,11.65-26,26-26Z" transform="translate(399.44 642.11) rotate(-180)"/>
+  <rect class="cls-1" x="1.01" y="197.5" width="397.44" height="24" rx="10.05" ry="10.05"/>
+  <circle class="cls-2" cx="352.94" cy="317.39" r="10.17"/>
+  <circle class="cls-2" cx="330.44" cy="295.97" r="10.17"/>
+  <circle class="cls-2" cx="375.11" cy="295.97" r="10.17"/>
+  <circle class="cls-2" cx="352.94" cy="274.64" r="10.17"/>
+  <circle class="cls-2" cx="326.78" cy="362.39" r="5.78"/>
+  <circle class="cls-2" cx="326.78" cy="385.89" r="5.78"/>
+  <circle class="cls-2" cx="364.09" cy="97.65" r="2.25"/>
+  <circle class="cls-2" cx="364.09" cy="86.08" r="2.17"/>
+  <circle class="cls-2" cx="364.09" cy="74.58" r="2.17"/>
+  <circle class="cls-2" cx="352.71" cy="86.08" r="2.17"/>
+  <circle class="cls-2" cx="375.47" cy="86.08" r="2.17"/>
+  <rect class="cls-2" x="102.27" y="236.15" width="194.89" height="146" rx="1.9" ry="1.9"/>
+  <rect class="cls-2" x="77.67" y="38.49" width="244.13" height="147.88" rx="1.9" ry="1.9"/>
+  <circle class="cls-2" cx="199.73" cy="15.53" r="8.21"/>
+  <circle class="cls-2" cx="215.07" cy="15.53" r="3.96"/>
+  <circle class="cls-2" cx="35.37" cy="97.57" r="2.25"/>
+  <circle class="cls-2" cx="35.37" cy="86" r="2.17"/>
+  <circle class="cls-2" cx="35.37" cy="74.5" r="2.17"/>
+  <circle class="cls-2" cx="24" cy="86" r="2.17"/>
+  <circle class="cls-2" cx="46.75" cy="86" r="2.17"/>
+  <circle class="cls-2" cx="47.02" cy="272.51" r="19.85"/>
+  <rect class="cls-2" x="38.25" y="317.86" width="17.56" height="52.11" rx="2.33" ry="2.33"/>
+  <rect class="cls-2" x="38.25" y="317.69" width="17.56" height="52.11" rx="2.33" ry="2.33" transform="translate(390.78 296.73) rotate(90)"/>
+  <rect class="cls-2" x="374.52" y="206.45" width="5.84" height="5.84" rx="1.44" ry="1.44"/>
+</svg>

@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #1fb6ea;
+    --secondary-color: #ffda00;
+    --dark-color: #454545;
+    --bright-color: #F5F5F5;
+}
+
+h1 {
+    font-family: 'Funnel Display', sans-serif;
+    font-size: 48px;    
+    line-height: 1.0;
+    font-weight: 600;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-color)
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    background: var(--bright-color);
+    padding: 30px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul {
+display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: var(--primary-color);
+}
+
+/* if there's a login or icon in the last navbar element, set last-child margin to 10px */
+
+.navbar ul li:last-child a {
+    margin-left: 0px;
+}
+
+.navbar ul li a i {
+    margin-right: 10px;
+}
+
+/* Hero */
+
+.hero {
+    margin-bottom: 50px;
+}
+
+.hero .container {
+    background-color: var(--bright-color);
+}
+
+.hero-content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Utility Classes */
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+.container-sm {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 13px, 20px;
+    background: var(--bright-color);
+    color: var(--dark-color);
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+}
+
+.btn-dark {
+    background: var(--dark-color);
+    color: #fff;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* Text Classes */
+
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+    color: var(--dark-color);
+}
+
+.text-xxllight {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 100;
+    margin: 40px 0 20px;
+    color: var(--primary-color)
+}
+
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* SVG Coloring Filters */
+
+.filter-blue {
+    filter: invert(67%) sepia(47%) saturate(5852%) hue-rotate(168deg) brightness(109%) contrast(83%);
+}
+
+.hero-content-rectangle {
+    height: 150;
+    z-index: -1;
+    background-color: var(--bright-color);
+    margin-top: -150px; 
+}
