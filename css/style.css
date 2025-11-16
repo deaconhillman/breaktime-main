@@ -87,11 +87,24 @@ display: flex;
 }
 
 .hero-content {
-    margin-top: 100px;
+    margin-top: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
+}
+
+/* Footer */
+
+.footer {
+  position: fixed;
+  padding: 70px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--bright-color);
+  text-align: center;
 }
 
 /* Utility Classes */
@@ -106,6 +119,11 @@ display: flex;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 15px
+}
+
+.bg-blue {
+    background: var(--primary-color);
+    color: 333;
 }
 
 /* Buttons */
